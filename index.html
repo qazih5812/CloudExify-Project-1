@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qazi Hammad ur Rehman | Portfolio</title>
+<meta name="description" content="Portfolio of Qazi Hammad ur Rehman — Software Engineering student, AI & Python developer.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <span class="logo"><span class="dot">$</span> qazihammad</span>
+    <div class="nav-right">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">theme --toggle</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <section id="hero">
+    <div class="container">
+      <div class="term-window">
+        <div class="term-titlebar">
+          <span class="term-dot red"></span>
+          <span class="term-dot yellow"></span>
+          <span class="term-dot green"></span>
+          <span>QAZI HAMMAD@portfolio: ~</span>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt-chevron">&gt;</span><span class="cmd">whoami</span></div>
+          <div class="term-line"><span class="prompt-chevron">&gt;</span><span class="cmd">cat role.txt</span></div>
+
+          <div class="hero-output">
+            <h1 class="hero-name">Qazi Hammad <span class="accent">ur Rehman</span></h1>
+            <p class="hero-role" id="typedRole"></p>
+            <p class="hero-desc">
+              Software Engineering student at COMSATS University Islamabad (Wah Campus),
+              building AI-powered applications, automation tools and web-based solutions —
+              currently interning at CloudExify.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">./view-projects</a>
+              <a href="assets/resume.pdf" class="btn btn-ghost" download>./download-resume.pdf</a>
+              <a href="#contact" class="btn btn-ghost">./contact-me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="container">
+      <p class="prompt-label"><span class="sep">:</span><span class="path">~/about$</span> cat about.txt</p>
+      <h2 class="section-title">About Me</h2>
+      <p class="section-sub">A quick <code>cat</code> of who I am and what I'm building.</p>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <span class="highlight">Software Engineering</span> student in my 5th semester at
+            COMSATS University Islamabad, Wah Campus, with a strong focus on
+            <span class="highlight">Artificial Intelligence</span>, Python development and modern web technologies.
+          </p>
+          <p>
+            I enjoy building practical, scalable systems — from AI-powered healthcare platforms to
+            computer-vision monitoring tools — and I'm an active <span class="highlight">Gen AI Team member</span>
+            at Google Developers Group (GDG) On Campus, CUI Wah Chapter.
+          </p>
+          <p>
+            This portfolio itself is part of my <span class="highlight">CloudExify Web Development internship</span> —
+            Month 1, Project 1.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <div class="info-row"><span class="k">Education</span><span class="v">BS Software Engineering</span></div>
+          <div class="info-row"><span class="k">University</span><span class="v">COMSATS Islamabad, Wah</span></div>
+          <div class="info-row"><span class="k">CGPA</span><span class="v">3.42 / 4.0</span></div>
+          <div class="info-row"><span class="k">Location</span><span class="v">Wah Cantt, Pakistan</span></div>
+          <div class="info-row"><span class="k">Focus</span><span class="v">AI · Python · Web Dev</span></div>
+          <div class="info-row"><span class="k">Status</span><span class="v">Open to internships</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills">
+    <div class="container">
+      <p class="prompt-label"><span class="sep">:</span><span class="path">~/skills$</span> cat skills.json</p>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">Bars fill only once, when they scroll into view.</p>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="skill" data-percent="85"><div class="skill-top"><span class="skill-name">Python</span><span class="skill-pct">85%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="70"><div class="skill-top"><span class="skill-name">JavaScript</span><span class="skill-pct">70%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="65"><div class="skill-top"><span class="skill-name">Java</span><span class="skill-pct">65%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="60"><div class="skill-top"><span class="skill-name">C++</span><span class="skill-pct">60%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="75"><div class="skill-top"><span class="skill-name">SQL</span><span class="skill-pct">75%</span></div><div class="bar-track" data-width="30"></div></div>
+        </div>
+        <div class="skill-group">
+          <h3>AI / Web / Tools</h3>
+          <div class="skill" data-percent="70"><div class="skill-top"><span class="skill-name">Machine Learning</span><span class="skill-pct">70%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="55"><div class="skill-top"><span class="skill-name">YOLO / Computer Vision</span><span class="skill-pct">55%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="70"><div class="skill-top"><span class="skill-name">HTML / CSS</span><span class="skill-pct">70%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="60"><div class="skill-top"><span class="skill-name">Laravel</span><span class="skill-pct">60%</span></div><div class="bar-track" data-width="30"></div></div>
+          <div class="skill" data-percent="80"><div class="skill-top"><span class="skill-name">Git / GitHub</span><span class="skill-pct">80%</span></div><div class="bar-track" data-width="30"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects">
+    <div class="container">
+      <p class="prompt-label"><span class="sep">:</span><span class="path">~/projects$</span> ls -la</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">Filter by tech tag.</p>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">all</button>
+        <button class="filter-btn" data-filter="python">python</button>
+        <button class="filter-btn" data-filter="ai">ai</button>
+        <button class="filter-btn" data-filter="java">java</button>
+        <button class="filter-btn" data-filter="cpp">cpp</button>
+        <button class="filter-btn" data-filter="web">web</button>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card" data-tags="python,ai,web">
+          <div class="p-head"><h3>Smart Doctor Connect AI</h3><span class="p-year">2026</span></div>
+          <p>AI healthcare platform (GDG National Hackathon) connecting patients with doctors via
+             intelligent symptom-based recommendations and appointment scheduling. Built REST APIs
+             with FastAPI and integrated Groq AI for specialization matching.</p>
+          <div class="tag-row"><span class="tag">FastAPI</span><span class="tag">React/Next.js</span><span class="tag">Groq AI</span><span class="tag">PostgreSQL</span></div>
+        </div>
+
+        <div class="project-card" data-tags="python,ai">
+          <div class="p-head"><h3>Real-Time Classroom Phone Detection</h3><span class="p-year">2025</span></div>
+          <p>Computer-vision system that detects mobile phone usage in live classroom sessions,
+             using YOLOv8/v9 and MediaPipe for hand/pose estimation and phone-to-student association.</p>
+          <div class="tag-row"><span class="tag">Python</span><span class="tag">YOLOv8/v9</span><span class="tag">OpenCV</span><span class="tag">MediaPipe</span></div>
+        </div>
+
+        <div class="project-card" data-tags="java">
+          <div class="p-head"><h3>Airline Management System</h3><span class="p-year">2025</span></div>
+          <p>Desktop airline management system for staff operations — flight booking, customer
+             management, ticket cancellation, rescheduling and boarding — with a MySQL-backed
+             relational database and OOP design patterns.</p>
+          <div class="tag-row"><span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">OOP</span></div>
+        </div>
+
+        <div class="project-card" data-tags="cpp">
+          <div class="p-head"><h3>Student Record Management System</h3><span class="p-year">2024</span></div>
+          <p>A student management system with admin and user interfaces supporting add, search,
+             update, delete and authentication functionality.</p>
+          <div class="tag-row"><span class="tag">C++</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact">
+    <div class="container">
+      <p class="prompt-label"><span class="sep">:</span><span class="path">~/contact$</span> ./send-message.sh</p>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-sub">Have an opportunity, project, or question? Send a message.</p>
+
+      <div class="contact-grid">
+        <div class="contact-links">
+          <a href="mailto:qazih5812@gmail.com"><span class="k">email:</span> qazih5812@gmail.com</a>
+          <a href="tel:+923185218521"><span class="k">phone:</span> +92 318-5218521</a>
+          <a href="#"><span class="k">location:</span> Wah Cantt, Pakistan</a>
+          <a href="https://github.com/qazih5812" target="_blank" rel="noopener"><span class="k">github:</span> github.com/qazih5812</a>
+          <a href="https://linkedin.com/in/qazi-hammad" target="_blank" rel="noopener"><span class="k">linkedin:</span> linkedin.com/in/qazi-hammad</a>
+        </div>
+
+        <form id="contactForm" novalidate>
+          <div class="field" id="nameField">
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <span class="field-error-msg">Please enter your name.</span>
+          </div>
+          <div class="field" id="emailField">
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+            <span class="field-error-msg">Please enter a valid email.</span>
+          </div>
+          <div class="field" id="messageField">
+            <label for="message">message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message..."></textarea>
+            <span class="field-error-msg">Please enter a message.</span>
+          </div>
+          <button type="submit" class="btn btn-primary">./submit</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Qazi Hammad ur Rehman — built with <span class="accent">HTML · CSS · JS</span> for CloudExify Internship, Month 1.</p>
+</footer>
+
+<div id="easterEggBadge">🏆 Achievement Unlocked: Konami Coder</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
