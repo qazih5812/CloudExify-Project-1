@@ -1,13 +1,13 @@
 # CloudExify Web Dev — Month 1, Project 1: Personal Portfolio Website
 
-**Name:** Qazi Hammad ur Rehman
-**Registration Number:** [apna registration number yahan likhna]
+**Name:** Qazi Hammad ur Rehman Nadeem
+**Registration Number:** [cx-INT-2026-GEN 0494]
 **Build Track:** Terminal Coder (dark hacker-style UI, monospace font, fake CLI lines)
 **Signature Feature(s) Implemented:**
 1. Typewriter hero intro — JS types out role/tagline letter-by-letter and loops through multiple lines
 2. Live theme switcher — toggles between dark and light "terminal" themes, saved with `localStorage`
 
-**Live Vercel Link:** [yahan apna vercel link paste karna after deploy]
+**Live Vercel Link:** (https://cloud-exify-project-1-hy1ihlbg6-qazih5812s-projects.vercel.app/)
 
 ---
 
@@ -48,7 +48,7 @@ HTML5, CSS3, Vanilla JavaScript — deployed on Vercel.
 
 ## Screenshots
 
-Add at least 2 screenshots here (desktop + mobile) before final submission:
+Two Screenshots added one form pc and other form mobile
 
 `![Desktop view](assets/screenshot-desktop.png)`
 `![Mobile view](assets/screenshot-mobile.png)`
