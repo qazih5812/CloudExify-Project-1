@@ -7,7 +7,7 @@
 1. Typewriter hero intro — JS types out role/tagline letter-by-letter and loops through multiple lines
 2. Live theme switcher — toggles between dark and light "terminal" themes, saved with `localStorage`
 
-**Live Vercel Link:** (https://cloud-exify-project-1-hy1ihlbg6-qazih5812s-projects.vercel.app/)
+**Live Vercel Link:** (https://cloud-exify-project-1.vercel.app/)
 
 ---
 
