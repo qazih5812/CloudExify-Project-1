@@ -50,8 +50,5 @@ HTML5, CSS3, Vanilla JavaScript — deployed on Vercel.
 
 Two Screenshots added one form pc and other form mobile
 
-`![Desktop view](assets/screenshot-desktop.png)`
-`![Mobile view](assets/screenshot-mobile.png)`
 
----
 Built as part of the CloudExify Summer Internship 2026 — Web Development, Month 1.
