@@ -96,7 +96,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.02em;
 }
 .prompt-label::before {
-  content: "QAZIHAMMAD@portfolio";
+  content: "QAZIHAMMAD";
   color: var(--accent);
 }
 .prompt-label .sep { color: var(--text-dim); }
